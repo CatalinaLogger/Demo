@@ -1,1 +1,3 @@
-read me thinks
+git config --global user.name "JinPing"
+git config --global user.email "1641525429@qq.com"
+ssh-keygen -t rsa -C "1641525429@qq.com"
