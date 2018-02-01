@@ -1,3 +1,22 @@
 git config --global user.name "JinPing"
 git config --global user.email "1641525429@qq.com"
 ssh-keygen -t rsa -C "1641525429@qq.com"
+
+git init //初始化本地git环境
+git status //查看当前分支有哪些修改
+git add . //把本地的修改加到stage中
+git commit -m 'comments here' //把stage中的修改提交到本地库
+git push //把本地库的修改提交到远程库中
+git pull //把远程库的代码更新到工作台
+git reset --hard 5as51d5a //切换到5as51d5a版本
+git log //查看当前分支上面的日志信息
+git log --pretty=oneline //查看当前分支上面的日志信息--美化后
+
+git clone XXX//克隆一份代码到本地仓库
+git pull --rebase origin master //强制把远程库的代码跟新到当前分支上面
+
+git branch  test //新建test分支 
+git branch -d test //删除test分支
+git checkout master/branch //切换到某个分支
+git branch //查看全部分支
+git merge test //同步分支
