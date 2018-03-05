@@ -6,6 +6,7 @@ git init //初始化本地git环境
 git status //查看当前分支有哪些修改
 git add . //把本地的修改加到stage中
 git commit -m 'comments here' //把stage中的修改提交到本地库
+git remote add origin git@github.com:XXXX/ceph.git
 git push //把本地库的修改提交到远程库中
 git pull //把远程库的代码更新到工作台
 git reset --hard 5as51d5a //切换到5as51d5a版本
